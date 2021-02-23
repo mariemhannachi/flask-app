@@ -19,7 +19,7 @@ jobs:
 
   push_to_registry:
     name: Push Docker image to Docker Hub
-    runs-on: alpine:3.5
+    runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
